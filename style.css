@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgb(2, 29, 51); */
+  background-color: rgb(15, 17, 32);
+  color: rgb(218, 214, 214);
+}
+
+.red-text {
+  color: rgb(224, 56, 44);
+}
+
+.property-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* * ===================================
+*=============== HEADER ================
+   * ================================ */
+
+#header {
+  font-family: 'Press Start 2P', cursive;
+  /* background-color: rgb(1, 14, 26); */
+  color: rgb(218, 214, 214);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#header-logo {
+  align-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* * ===================================
+*=============== PALETTE ================
+   * ================================ */
+
+h1 {
+  letter-spacing: 3px;
+  font-size: 22px;
+  margin-left: 75px;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+#palette-container
+
+#color-palette {
+  display: flex;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 20px;
+
+}
+
+.palette-holder {
+  margin: auto;
+  align-content: space-around;
+  /* padding: 20px 72px; */
+}
+
+h3 {
+  margin-right: 80px;
+}
+
+.colors-box {
+  display: flex;
+}
+
+.color {
+  margin: auto;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  align-content: space-between;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.color:hover {
+  border: 1px solid rgb(1, 186, 244);
+}
+
+.color:nth-of-type(1) {
+  background-color: rgb(237, 30, 39);
+}
+
+.color:nth-of-type(2) {
+  background-color: rgb(241, 91, 44)
+}
+
+.color:nth-of-type(3) {
+  background-color: rgb(244, 103, 38);
+}
+
+.color:nth-of-type(4) {
+  background-color: rgb(248, 148, 34);
+}
+
+.color:nth-of-type(5) {
+  background-color: rgb(254, 242, 3);
+}
+
+.color:nth-of-type(6) {
+  background-color: rgb(141, 198, 66);
+}
+
+.color:nth-of-type(7) {
+  background-color: rgb(36, 179, 77);
+}
+
+.color:nth-of-type(8) {
+  background-color: rgb(12, 180, 206);
+}
+
+.color:nth-of-type(9) {
+  background-color: rgb(48, 50, 149);
+}
+
+.color:nth-of-type(10) {
+  background-color: rgb(41, 36, 101);
+}
+
+.color:nth-of-type(11) {
+  background-color: rgb(103, 47, 147);
+}
+
+.color:nth-of-type(12) {
+  background-color: rgb(147, 42, 144);
+}
+
+.neutral:first-of-type {
+  background-color: black;
+}
+
+/* * ===================================
+*=============== BOARD ================
+   * ================================ */
+
+#board-container {
+  display: flex;
+  align-content: center;
+  margin-top: 20PX;
+}
+
+#pixel-board {
+  margin: auto;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+
+}
+
+.pixel-container {
+  display: flex;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+/* * ===================================
+*=============== FUNCTIONS ==============
+   * ================================ */
+
+#functions-container {
+  display: flex;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#functions-holder {
+  display: flex;
+  align-content: center;
+  margin: 10px auto 10px;
+  width: 30%;
+}
+
+#btn-container {
+  margin: auto;
+}
+
+#input-container {
+  margin: auto;
+}
+
+/* * ===================================
+*=============== FUNCTIONS ==============
+   * ================================ */
+
+.btn-style {
+  background-color: rgb(218, 214, 214);
+  color: white;
+  background-color: rgb(11, 204, 98);
+  border-radius: 5px;
+  border: 1px white solid;
+}
+
+.btn-style2 {
+  background-color: rgb(218, 214, 214);
+  color: white;
+  background-color: rgb(224, 56, 44);
+  border-radius: 5px;
+  border: 1px white solid;
+}
+
+#ghost {
+  transform: rotateY(180deg);
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 75%;
+  width: 300px;
+  z-index: 0;
+}
+
+#ghost2 {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 5%;
+  width: 300px;
+  z-index: 0;
+}

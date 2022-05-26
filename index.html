@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Pixel Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header id="header">
+            <h2 id="header-logo"><span class="red-text">UDI</span> Pixels</h2>
+        </header>
+        <h1 id="title">Paleta de Cores</h1>
+        
+        <section id="palette-container">
+            <div id="color-palette">
+                <div class="palette-holder">
+                    <h3 class="property-title">
+                        *Preto
+                    </h3>
+                    <div class="color neutral"></div>
+                </div>
+
+                <div class="palette-holder">
+                    <h3 class="property-title">
+                        *Cores Padrão
+                    </h3>
+                    <div class="colors-box">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                </div>
+                <div class="palette-holder">
+                    <h3 class="property-title">
+                        *Cores Aleatórias
+                    </h3>
+                    <div class="colors-box">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <div id="functions-container">
+           <div id="functions-holder">
+               <section id="btn-container">
+                   <button class="btn-style2" id="clear-board">Limpar</button>
+               </section>
+               
+               <section id="input-container">
+                   <input placeholder="Número de pixels" type="number" min="1" id="board-size">
+                   <button class="btn-style" id="generate-board">VQV</button>
+               </section>
+           </div>
+       </div>
+
+        <section id="board-container">
+            <section id="pixel-board">
+            </section>
+            
+            <img id="ghost2" src="./images/ghost.gif" alt="fantasma-gif" width="200px">
+
+            <img id="ghost" src="./images/ghost.gif" alt="fantasma-gif" width="200px">
+        </section>
+    </div>
+
+    <!-- !JS -->
+    <script src="script.js"></script>
+</body>
+</html>
